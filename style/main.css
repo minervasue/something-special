@@ -1,0 +1,173 @@
+.main {
+  height: 100dvh;
+  width: 100%;
+  padding: 5%;
+}
+.letter {
+  color: white;
+  font-size: 24px;
+  margin-top: 10px;
+  z-index: 1;
+}
+.welcome-letter {
+  position: relative;
+  margin-top: 70px;
+  height: auto;
+}
+.letter-r {
+  border: 5px solid white;
+  padding: 15px;
+}
+
+.welcome-letter .img {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  right: 20px;
+  top: -85px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.welcome-letter img {
+  width: 100%;
+}
+.photos1 {
+  display: flex;
+  overflow-x: auto;
+  width: 110%;
+  margin-left: -30px;
+}
+
+/*FIRST MEET*/
+.first-meet,
+.covid,
+.meeting-parents,
+.valentines,
+.unplanned-dates,
+.travels {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.first-m-section,
+.covid-era {
+  border: 5px solid white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h3 {
+  color: white;
+}
+.images-f {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.images-f img {
+  width: 300px;
+  flex-shrink: 0;
+  border: 5px double white;
+}
+
+.fm-header {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.message {
+  font-size: 24px;
+  color: white;
+}
+
+/*GALLERY*/
+.gallery {
+  margin-top: 100px;
+}
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery-header {
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+}
+.photos img {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 auto;
+}
+
+.w200 {
+  width: 200px;
+}
+.w300 {
+  width: 300px;
+}
+
+/*SUCCESS*/
+
+.first-success {
+  margin: 100px 0px;
+  color: white;
+}
+.fs-header {
+  text-align: center;
+  margin: 10px;
+}
+.unrecorded,
+.axie,
+.thesis,
+.ojt,
+.graduation {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px 0px;
+  border: 5px solid wheat;
+  padding: 10px;
+}
+.photo-js {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.un {
+  width: 280px;
+  height: 340px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  align-items: center;
+  max-width: 100%;
+}
+.uns {
+  width: 100%;
+}
+
+.ins {
+  width: 48%;
+}
+.ons {
+  height: auto;
+}
+.un img {
+  max-width: 100%;
+  height: 100%;
+}
